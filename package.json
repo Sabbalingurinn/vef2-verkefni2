@@ -1,5 +1,5 @@
 {
-  "name": "vef2-2025-v1",
+  "name": "vef2-verkefni2",
   "version": "1.0.0",
   "description": "Lausn á verkefni 1",
   "type": "module",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skarihacks/vef2-2025-v1.git"
+    "url": "git+https://github.com/sabbalingurinn/vef2-verkefni2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skarihacks/vef2-2025-v1/issues"
+    "url": "https://github.com/sabbalingurinn/vef2-verkefni2/issues"
   },
-  "homepage": "https://github.com/skarihacks/vef2-2025-v1#readme",
+  "homepage": "https://github.com/sabbalingurinn/vef2-verkefni2#readme",
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "eslint": "^9.20.0",
