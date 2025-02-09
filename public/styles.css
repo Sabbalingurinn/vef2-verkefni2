@@ -1,0 +1,104 @@
+/* Basic styles for centering and responsiveness */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  a:hover {
+    background-color: #005bb5;
+  }
+  
+  .question {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background: #218838;
+  }
+  
+  .result {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .result.correct {
+    color: green !important;
+  }
+  
+  .result.wrong {
+    color: red !important;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    body {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    a {
+      width: 100%;
+    }
+  
+    .question {
+      text-align: left;
+    }
+  }
+  
